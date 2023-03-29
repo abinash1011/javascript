@@ -1,0 +1,9 @@
+FORM VALIDATION is the process of applying restrictions on each imput element present in the form.
+without form validation unwanted and harmful inputs can be incurred by the attacker.
+
+for e.g.: 
+    password rules, email ID formats, number of digits in mobile number field can be considered as form validation criterias.
+
+
+
+install jamp and php

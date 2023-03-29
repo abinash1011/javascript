@@ -1,0 +1,49 @@
+syntax to create a class in JS
+
+Class ClassNAme
+    {
+        contructor(var a, var b)
+        {
+            this.x = a;
+            this.y = b;
+        }
+    }
+
+'this' is a reference to current object
+here, x and y are data members and a and b are formal arguements
+
+e.g.
+Class Shape
+    {
+        contructor(var l, var b)
+        {
+            this.length = l;
+            this.breadth = b;
+        }
+    }
+var ob = new shape(10,20);
+ob.height = 30                // objects are dynamic in javascript
+
+
+
+functions in javascript
+
+e.g.
+Class Shape
+    {
+        contructor(var l, var b)
+        {
+            this.length = l;
+            this.breadth = b;
+        }
+
+        area()
+        {
+            var area = this.length + this.breadth
+            return area
+        }
+    }
+
+object triange, member variable: side1, side2, side3, perimeter
+class has two member functions: IsValid()[checks if the triange is valid or not], perieter()
+]
